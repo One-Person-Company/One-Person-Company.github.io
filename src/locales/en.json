@@ -1,0 +1,41 @@
+{
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "chinese": "中文"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AI connects infinitely, Reorgix redefines boundaries.",
+    "subtitle": "AI interconnects everything, we build the foundation, let creativity flow limitlessly.",
+    "cta": "Get Started"
+  },
+  "values": {
+    "label": "Why Reorgix",
+    "prop1_title": "You Imagine",
+    "prop1_subtitle": "We Organize",
+    "prop1_desc": "Focus on your core vision. Let our system handle complexity and operational details.",
+    "prop2_title": "Define Your Rules",
+    "prop2_subtitle": "Unleash Your Potential",
+    "prop2_desc": "Establish clear boundaries and governance. Maximize innovation within a secure framework.",
+    "prop3_title": "Every Digital Footprint",
+    "prop3_subtitle": "Is Solid Credit",
+    "prop3_desc": "Track, record, and verify every decision. Build trust through transparent accountability."
+  },
+  "footer": {
+    "title": "Have more ideas?",
+    "titleContinue": "Contact us",
+    "subtitle": "We look forward to exploring more possibilities with you.",
+    "cta": "Contact Us"
+  },
+  "notfound": {
+    "title": "Page Not Found",
+    "subtitle": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  }
+}

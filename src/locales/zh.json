@@ -1,0 +1,41 @@
+{
+  "common": {
+    "language": "语言",
+    "english": "English",
+    "chinese": "中文"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "solutions": "解决方案",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "AI 万象互联，Reorgix重塑边界。",
+    "subtitle": "AI将万物互联，我们构建基石，让创造力无界限",
+    "cta": "从这里开始"
+  },
+  "values": {
+    "label": "为什么选择 Reorgix",
+    "prop1_title": "你负责想象",
+    "prop1_subtitle": "我们负责秩序",
+    "prop1_desc": "释放创意潜能，专注核心想象，让系统为您处理复杂度。",
+    "prop2_title": "定义你的底线",
+    "prop2_subtitle": "释放你的可能",
+    "prop2_desc": "建立清晰的边界和规则，在安全框架内最大化创新空间。",
+    "prop3_title": "每一个数字足迹",
+    "prop3_subtitle": "皆为坚实信用",
+    "prop3_desc": "追踪、记录、验证，每个决策都有据可查，信用由此而生。"
+  },
+  "footer": {
+    "title": "这里有更多想法",
+    "titleContinue": "您可以联系我们",
+    "subtitle": "我们期待与您一起探索更多可能性。",
+    "cta": "联系我们"
+  },
+  "notfound": {
+    "title": "页面未找到",
+    "subtitle": "您访问的页面不存在。",
+    "backHome": "返回首页"
+  }
+}
