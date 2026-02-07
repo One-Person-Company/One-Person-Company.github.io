@@ -79,7 +79,7 @@ export default function Layout() {
                 y: isLangMenuOpen ? 0 : -10,
               }}
               transition={{ duration: 0.2 }}
-              pointerEvents={isLangMenuOpen ? 'auto' : 'none'}
+              style={{ pointerEvents: isLangMenuOpen ? 'auto' : 'none' }}
             >
               <button
                 onClick={() => toggleLanguage('en')}

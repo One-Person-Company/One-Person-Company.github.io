@@ -17,7 +17,6 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
   },
 }
 
@@ -26,7 +25,6 @@ const lineVariants = {
   visible: {
     scaleX: 1,
     opacity: 1,
-    transition: { duration: 1, ease: 'easeOut' },
   },
 }
 
@@ -46,6 +44,7 @@ export default function Home() {
         <motion.div
           className="w-12 h-0.5 bg-white/30 mb-12"
           variants={lineVariants}
+          transition={{ duration: 1 }}
           style={{ originX: 0 }}
         />
 
@@ -53,6 +52,7 @@ export default function Home() {
         <motion.h1
           className="text-5xl md:text-7xl font-light text-center mb-6 max-w-4xl leading-tight"
           variants={itemVariants}
+          transition={{ duration: 0.6 }}
         >
           {t('hero.title')}
         </motion.h1>
@@ -61,6 +61,7 @@ export default function Home() {
         <motion.p
           className="text-base md:text-lg text-center max-w-2xl text-white/70 mb-12 leading-relaxed"
           variants={itemVariants}
+          transition={{ duration: 0.6 }}
         >
           {t('hero.subtitle')}
         </motion.p>
@@ -69,6 +70,7 @@ export default function Home() {
         <motion.button
           className="btn-capsule"
           variants={itemVariants}
+          transition={{ duration: 0.6 }}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -129,7 +131,7 @@ export default function Home() {
                 className="relative w-full max-w-sm"
                 variants={itemVariants}
                 whileHover={{ y: -6 }}
-                transition={{ duration: 0.2, ease: 'easeOut' }}
+                transition={{ duration: 0.2 }}
               >
                 <div className="group relative w-full cursor-pointer">
                   {/* Card Border Accent */}
