@@ -6,12 +6,18 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About",
-    "solutions": "Solutions",
-    "contact": "Contact"
+    "research": "Research",
+    "openplatform": "Open Platform",
+    "message": "Message",
+    "promise": "Promise"
+  },
+  "research": {
+    "subtitle": "Explore cutting-edge ideas and deep insights",
+    "loading": "Loading...",
+    "notFound": "Article not found"
   },
   "hero": {
-    "title": "AI connects infinitely, Reorgix redefines boundaries.",
+    "title": "AI connects everything, Reorgix in order.",
     "subtitle": "AI interconnects everything, we build the foundation, let creativity flow limitlessly.",
     "cta": "Get Started"
   },

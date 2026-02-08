@@ -6,9 +6,15 @@
   },
   "nav": {
     "home": "首页",
-    "about": "关于我们",
-    "solutions": "解决方案",
-    "contact": "联系我们"
+    "research": "研究",
+    "openplatform": "开放平台",
+    "message": "消息",
+    "promise": "承诺"
+  },
+  "research": {
+    "subtitle": "探索前沿思想和深度洞察",
+    "loading": "加载中...",
+    "notFound": "文章不存在"
   },
   "hero": {
     "title": "AI 万象互联，Reorgix重塑边界。",

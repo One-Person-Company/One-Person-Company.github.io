@@ -1,4 +1,5 @@
 import { BrowserRouter, useRoutes } from 'react-router-dom'
+import { Suspense } from 'react'
 import { routes } from './config/routes'
 
 function Router() {
@@ -8,7 +9,13 @@ function Router() {
 export default function App() {
   return (
     <BrowserRouter>
-      <Router />
+      <Suspense fallback={
+        <div className="min-h-screen bg-apple-black flex items-center justify-center">
+          <div className="text-white/60">Loading...</div>
+        </div>
+      }>
+        <Router />
+      </Suspense>
     </BrowserRouter>
   )
 }

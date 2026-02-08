@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
+import './index.css'
 
-export default function Contact() {
+export default function Message() {
   const { t } = useTranslation()
 
   return (
@@ -18,7 +19,7 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          {t('nav.contact')}
+          {t('nav.message')}
         </motion.h1>
         <motion.p
           className="text-lg text-white/70 mb-12 leading-relaxed"
